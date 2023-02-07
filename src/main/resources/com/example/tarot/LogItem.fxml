@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="459.0" spacing="30.0" style="-fx-background-color: #434242; -fx-border-radius: 10; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tarot.LogItemController">
+   <children>
+      <ImageView fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../icons/card.png" />
+         </image>
+         <HBox.margin>
+            <Insets left="15.0" />
+         </HBox.margin>
+      </ImageView>
+      <Label fx:id="entryID" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="29.0" text="1" textFill="#d96b15" />
+      <Label fx:id="entryDate" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="86.0" text="30/12/2022" textFill="#d96b15" />
+      <Label fx:id="entryCard" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="115.0" text="Knight of Augments" textFill="#d96b15" />
+      <Label fx:id="entryRating" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="64.0" text="Negative" textFill="#d96b15" />
+   </children>
+   <padding>
+      <Insets right="20.0" />
+   </padding>
+</HBox>

@@ -1,0 +1,37 @@
+.button
+{
+-fx-background-color:  #2F2E2E;
+-fx-background-radius: 0em;
+}
+.button:hover
+{
+-fx-background-color: #2D3741;
+-fx-border-color: #CDD1D6;
+-fx-border-width: 0px 0px 0px 3px;
+}
+.button:focused
+{
+-fx-background-color: #2D3741;
+-fx-border-color: #CDD1D6;
+-fx-border-width: 0px 0px 0px 3px;
+}
+.button:pressed
+{
+-fx-background-color: #242C34;
+}
+
+.label
+{
+-fx-background-radius: 10px 10px 10px 10px;
+-fx-background-color: #444d56;
+-fx-border-radius: 10px;
+-fx-border-color: #444d56;
+}
+
+.saveLabel
+{
+-fx-background-radius: 20px;
+-fx-background-color: #16212C;
+-fx-border-radius: 20px;
+-fx-border-color: #D96B15;
+}

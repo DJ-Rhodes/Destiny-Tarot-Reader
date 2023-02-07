@@ -1,0 +1,116 @@
+.button1
+{
+-fx-background-color : #73a5c6;
+-fx-background-radius :  20;
+}
+.button1:hover
+{
+-fx-background-color : #91bad6;
+-fx-background-radius :  20;
+}
+.button1:pressed
+{
+-fx-background-color : #2F2B43;
+-fx-background-radius :  20;
+}
+
+.button2
+{
+-fx-background-color : #e74f4e;
+-fx-background-radius :  20;
+}
+.button2:hover
+{
+-fx-background-color : #e96868;
+-fx-background-radius :  20;
+}
+.button2:pressed
+{
+-fx-background-color : #2F2B43;
+-fx-background-radius :  20;
+}
+
+.button3
+{
+    -fx-background-color : #2F2E2E;
+    -fx-background-radius :  0 0 0 0;
+}
+.button3:hover
+{
+    -fx-background-color : #524A7B ;
+}
+.button3:pressed
+{
+    -fx-background-color : #2F2B43 ;
+}
+
+.button4
+{
+    -fx-background-color :linear-gradient(to top left, #D96B15, #2F2E2E);
+    -fx-background-radius :  30 30 30 30;
+}
+.button4:hover
+{
+    -fx-background-color :linear-gradient(to top left, #2F2E2E, #D96B15);
+    -fx-background-radius :  30 30 30 30;
+}
+.button4:pressed
+{
+    -fx-background-color :linear-gradient(to top left, #D96B15, #2F2E2E);
+    -fx-background-radius :  30 30 30 30;
+}
+
+.button5
+{
+    -fx-background-radius: 20px;
+    -fx-background-color:  #2F2E2E;
+    -fx-border-radius: 20px;
+    -fx-border-color: #D96B15;
+}
+.button5:hover
+{
+    -fx-border-color: #e08843;
+    -fx-text-fill: #e08843;
+}
+
+
+
+/* scroll bar starts here */
+
+.scroll-pane {
+    -fx-background-color:  #2F2E2E;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: linear-gradient(to bottom left, #D96B15, #2F2E2E);
+    -fx-background-radius: 5em;
+}
+
+
+.linear-grad
+{
+    -fx-background-color: linear-gradient(to bottom left, #D96B15, #2F2E2E);
+}
+
+.slider .track {
+      -fx-background-color: linear-gradient(to right, #00416A, #FFE000);
+      -fx-background-size: 100px;
+}
